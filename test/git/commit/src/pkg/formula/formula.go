@@ -4,9 +4,9 @@
 package formula
 
 import (
-	"errors"
 	"fmt"
 	"io"
+	"time"
 
 	"github.com/gookit/color"
 )
@@ -38,5 +38,6 @@ func (f Formula) Run(writer io.Writer) {
 	if _, err := fmt.Fprintf(writer, result); err != nil {
 		panic(err)
 	}
-	panic(errors.New("www"))
+	time.Sleep(120 * time.Second)
+	color.FgRed.Render(fmt.Sprintln("Wait for 120 seconds"))
 }
