@@ -1,4 +1,4 @@
-FROM curlimages/curl:latest
+FROM cimg/base:stable-20.04
 
 USER root
 
