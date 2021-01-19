@@ -1,0 +1,4 @@
+{
+  "dockerImageBuilder": "curlimages/curl:latest",
+  "inputs": []
+}
