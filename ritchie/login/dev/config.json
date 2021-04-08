@@ -1,0 +1,13 @@
+{
+  "dockerImageBuilder": "cimg/base:stable-20.04",
+  "inputs": [
+    {
+      "name": "username",
+      "type": "CREDENTIAL_RIT_STG_USERNAME"
+    },
+    {
+      "name": "password",
+      "type": "CREDENTIAL_RIT_STG_PASSWORD"
+    }
+  ]
+}
