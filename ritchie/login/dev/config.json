@@ -3,11 +3,11 @@
   "inputs": [
     {
       "name": "username",
-      "type": "CREDENTIAL_RIT_STG_USERNAME"
+      "type": "CREDENTIAL_RITDEV_USERNAME"
     },
     {
       "name": "password",
-      "type": "CREDENTIAL_RIT_STG_PASSWORD"
+      "type": "CREDENTIAL_RITDEV_PASSWORD"
     }
   ]
 }
