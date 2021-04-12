@@ -32,8 +32,8 @@
       "name": "var4",
       "type": "bool",
       "items": [
-           true,
-           false
+           "true",
+           "false"
       ]
     }
   ]
