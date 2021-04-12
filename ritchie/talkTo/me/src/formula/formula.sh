@@ -4,8 +4,8 @@ runFormula() {
 
   echo "First variable is: $VAR1"
   echo "Second variable is: $VAR2"
-  echo "Thirt variable is: $VAR3"
-  echo "Thirt variable is: $VAR4"
+  echo "Third variable is: $VAR3"
+  echo "Fourth variable is: $VAR4"
 
   echo "done"
 }
