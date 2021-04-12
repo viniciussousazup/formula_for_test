@@ -3,7 +3,7 @@
 ## command
 
 ```bash
-rit age get civi
+rit ritchie login stg
 ```
 
 ## description

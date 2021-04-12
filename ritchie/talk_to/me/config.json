@@ -1,0 +1,40 @@
+{
+  "dockerImageBuilder": "cimg/base:stable-20.04",
+  "inputs": [
+    {
+      "name": "var1",
+      "type": "text",
+      "label": "Variable 1",
+      "required": true
+    },
+    {
+      "default": "us-east-1",
+      "items": [
+        "sa-east-1",
+        "us-east-2",
+        "us-east-1"
+      ],
+      "label": "Select Variable 2",
+      "name": "var2",
+      "tutorial": "Choose one option",
+      "type": "text",
+      "required": true
+    },
+    {
+      "label": "Variable 3",
+      "name": "var3",
+      "required": true,
+      "tutorial": "Type a secret",
+      "type": "password"
+    },
+    {
+      "label": "Variable 4",
+      "name": "var4",
+      "type": "bool",
+      "items": [
+           true,
+           false
+      ]
+}
+  ]
+}
